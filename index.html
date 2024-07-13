@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="stopwatch_header.jfif" alt="Stopwatch Header" class="header-image">
+        <h1>Stopwatch</h1>
+        <div id="display">00:00:00.00</div>
+        <div class="buttons">
+            <button id="startStopBtn"><img src=" startSTop.webp " alt="Start"></button>
+            <button id="lapBtn" disabled><img src="lap.png" alt="Lap"></button>
+            <button id="resetBtn" disabled><img src="reset.png" alt="Reset"></button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
